@@ -1,6 +1,6 @@
-# **README.md - Plateforme intelligente pour la configuration, l'analyse et la supervision des machines industrielles**
-## 1. **Plateforme intelligente pour la configuration, l'analyse et la supervision des machines industrielles**
-## 2. **Description du projet**
+# **Plateforme intelligente pour la configuration, l'analyse et la supervision des machines industrielles**
+
+## 1. **Description du projet**
 
 La **plateforme intelligente** que nous proposons a pour objectif de transformer la gestion des machines industrielles en une expérience moderne, intuitive et efficace. Elle permet aux ingénieurs et opérateurs de configurer dynamiquement les machines (telles que des malaxeurs, des robots, etc.), de surveiller leurs performances en temps réel via un tableau de bord IoT, et d’analyser les données de production pour améliorer l’efficacité opérationnelle.
 
@@ -11,7 +11,7 @@ Les principaux avantages incluent :
 - **Réduction des temps d'arrêt** grâce à la maintenance prédictive basée sur les données des capteurs.
 - **Accessibilité accrue** grâce à l'intégration d'une IA permettant des interactions en langage naturel.
 
-## 3. **Fonctionnalités principales**
+## 2. **Fonctionnalités principales**
 
 1. **Configuration dynamique des machines** :
    - Ajustez à distance les paramètres essentiels des machines comme la vitesse, la température, et les angles des robots via une interface web conviviale.
@@ -30,7 +30,7 @@ Les principaux avantages incluent :
    - Posez des questions et envoyez des commandes à la machine via des phrases simples comme « Quelle est la température du malaxeur ? » ou « Configure la machine à 2000 RPM ».
    - L'IA comprend et répond en temps réel, rendant les interactions plus accessibles et rapides.
 
-## 4. **Architecture du projet**
+## 3. **Architecture du projet**
 
 L’architecture est divisée en plusieurs modules pour permettre une meilleure organisation et évolutivité du projet :
 
@@ -85,18 +85,7 @@ L’architecture est divisée en plusieurs modules pour permettre une meilleure 
 
 ---
 
-## 5. **Prérequis**
-
-Avant de démarrer le projet, assurez-vous d'avoir les outils et versions suivants installés sur votre machine :
-
-- **Python 3.8+** pour le backend
-- **Node.js 14+** pour le frontend
-- **Docker** (optionnel mais recommandé pour une installation simplifiée)
-- **PostgreSQL** ou toute autre base de données relationnelle compatible
-
----
-
-## 6. **Installation**
+## 4. **Installation**
 
 ### 1. Cloner le dépôt :
 ```bash
@@ -147,7 +136,7 @@ Si Docker est configuré, exécutez tous les services via Docker Compose :
 docker-compose up --build
 ```
 
-## 7. **Utilisation**
+## 5. **Utilisation**
 
 ### 1. Accéder à l'interface web :
    - L’interface utilisateur React est accessible via [http://localhost:3000](http://localhost:3000).
